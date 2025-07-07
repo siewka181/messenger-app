@@ -1,0 +1,53 @@
+{
+  "name": "MessengerFakeConversation",
+  "displayName": "Messenger Fake Conversation - siewkaDesign",
+  "expo": {
+    "name": "Messenger Fake Conversation",
+    "slug": "messenger-fake-conversation-siewka",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/siewka_design_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/siewka_design_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7CB342"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.siewkadesign.messengerfake"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/siewka_design_logo.png",
+        "backgroundColor": "#7CB342"
+      },
+      "package": "com.siewkadesign.messengerfake",
+      "versionCode": 1,
+      "compileSdkVersion": 34,
+      "targetSdkVersion": 34,
+      "minSdkVersion": 23,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./src/assets/siewka_design_logo.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Aplikacja potrzebuje dostępu do zdjęć, aby dodawać je do konwersacji.",
+          "cameraPermission": "Aplikacja potrzebuje dostępu do aparatu, aby robić zdjęcia do konwersacji."
+        }
+      ]
+    ]
+  }
+}
+
