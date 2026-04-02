@@ -1,6 +1,6 @@
 {
-  "name": "MessengerFakeConversation",
-  "displayName": "Messenger Fake Conversation - siewkaDesign",
+  "name": "AndroidMasterBoost",
+  "displayName": "Android Master Boost",
   "expo": {
     "name": "Messenger Fake Conversation",
     "slug": "messenger-fake-conversation-siewka",
@@ -43,11 +43,10 @@
       [
         "expo-image-picker",
         {
-          "photosPermission": "Aplikacja potrzebuje dostępu do zdjęć, aby dodawać je do konwersacji.",
-          "cameraPermission": "Aplikacja potrzebuje dostępu do aparatu, aby robić zdjęcia do konwersacji."
+          "photosPermission": "Aplikacja potrzebuje dost\u0119pu do zdj\u0119\u0107, aby dodawa\u0107 je do konwersacji.",
+          "cameraPermission": "Aplikacja potrzebuje dost\u0119pu do aparatu, aby robi\u0107 zdj\u0119cia do konwersacji."
         }
       ]
     ]
   }
 }
-
